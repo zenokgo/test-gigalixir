@@ -1,10 +1,10 @@
 {
-  "name": "discord bot",
+  "name": "node",
   "version": "8.8.8",
-  "description": "my-discord-bot",
+  "description": "Thsi is a node project",
   "main": "index.js",
-  "author": "yoyo",
-  "repository": "https://github.com/ohyoxo/my-discord-bot",
+  "author": "eooce",
+  "repository": "",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "axios": "latest",
-    "express": "^4.18.2"
+    "express": "latest"
   },
   "engines": {
     "node": ">=14"
