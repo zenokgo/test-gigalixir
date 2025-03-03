@@ -1,20 +1,29 @@
 {
-  "name": "node",
-  "version": "8.8.8",
-  "description": "Thsi is a node project",
+  "name": "process-monitor",
+  "version": "1.0.0",
+  "description": "A Node.js process monitor and manager for Linux systems",
   "main": "index.js",
-  "author": "eooce",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "process",
+    "monitor",
+    "linux",
+    "daemon",
+    "process-management"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "latest",
-    "express": "latest"
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=14.0.0"
   }
 }
